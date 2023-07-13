@@ -1,0 +1,19 @@
+064591f8335b72ad2a799b1e5ada2ada4810202fb13178c488de1f6163dd13f2
+
+
+aptos move run --function-id 'default::AtomicSwap::send_funds_to_atomic_address' --args 'address:0x764af36b3161d75d1ddc0479b24b6208ab1f30cb65cc53de694f48ca950f0f4d' --args 'u64:1'
+
+[addresses]
+Atomic_Swap = '0xc917db3cc41d6f43e85f49ed67e520aa514f753311f2365bca57492f64ec2207'
+
+default:
+    private_key: "0xa5cfed43fe3d3b88bd4e77ebe01a5b75d43354dfc71c52fddc2ec90a233846ed"
+    public_key: "0xd3aa71edb3bbc411e536ba053bd6b0429c958673a138b32c85b60d404a8c902e"
+    account: c917db3cc41d6f43e85f49ed67e520aa514f753311f2365bca57492f64ec2207
+    rest_url: "https://fullnode.devnet.aptoslabs.com"
+    faucet_url: "https://faucet.devnet.aptoslabs.com"
+
+
+default
+reciever
+sender

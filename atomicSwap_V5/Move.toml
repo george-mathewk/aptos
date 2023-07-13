@@ -1,0 +1,10 @@
+[package]
+name = "atomicSwap"
+version = "0.0.0"
+
+[dependencies]
+AptosFramework = { local = "../aptos-core/aptos-move/framework/aptos-framework" }
+
+[addresses]
+Atomic_Swap = '0x12a55344166c08cbd24db1b20f4548ce1e201c198252736d16c8944309df0135'
+USDC_add = '0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa'

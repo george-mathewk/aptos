@@ -1,0 +1,30 @@
+---
+compiled_package_info:
+  package_name: atomicSwap
+  address_alias_instantiation:
+    Atomic_Swap: 12a55344166c08cbd24db1b20f4548ce1e201c198252736d16c8944309df0135
+    Extensions: "0000000000000000000000000000000000000000000000000000000000000001"
+    USDC_add: f22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa
+    aptos_framework: "0000000000000000000000000000000000000000000000000000000000000001"
+    aptos_std: "0000000000000000000000000000000000000000000000000000000000000001"
+    aptos_token: "0000000000000000000000000000000000000000000000000000000000000003"
+    core_resources: 000000000000000000000000000000000000000000000000000000000a550c18
+    std: "0000000000000000000000000000000000000000000000000000000000000001"
+    vm_reserved: "0000000000000000000000000000000000000000000000000000000000000000"
+  source_digest: BD578A4610FBC59D44B515DF4F3F0121F418CA51BAF457DE12C7066BD7876579
+  build_flags:
+    dev_mode: true
+    test_mode: true
+    generate_docs: false
+    generate_abis: false
+    install_dir: ~
+    force_recompilation: false
+    additional_named_addresses: {}
+    architecture: ~
+    fetch_deps_only: false
+    skip_fetch_latest_git_deps: false
+    bytecode_version: ~
+dependencies:
+  - AptosFramework
+  - AptosStdlib
+  - MoveStdlib
